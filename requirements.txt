@@ -2,8 +2,12 @@ teachbooks
 scipy
 numpy
 matplotlib
-jupyterbook-patches
+sphinx-image-inverter
+download_link_replacer
+sphinx-tudelft-theme
+sphinx-exercise
 
-download_link_replacer @ git+https://gitlab.tudelft.nl/mude/sphinx-download-link-replacer@dlr-0.1.1
---extra-index-url https://gitlab.tudelft.nl/api/v4/projects/11239/packages/pypi/simple
-sphinx-thebe ~= 0.9.9
+
+# now list the packages (and the respective url) you wish to download from the GitLab package registry
+--extra-index-url https://gitlab.tudelft.nl/api/v4/projects/11239/packages/pypi/simple  #temporarily disable
+sphinx-thebe ~= 0.9.9 
