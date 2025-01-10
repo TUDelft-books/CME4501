@@ -20,7 +20,7 @@ sphinx:
     thebe_config:
       use_thebe_lite: true
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb","**/**"]      
-   html_theme_options:
+    html_theme_options:
       repository_url: "https://github.com/TUDelft-books/CME4501"
       path_to_docs: "book"
       repository_branch: "2024"
