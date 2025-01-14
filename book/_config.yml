@@ -8,7 +8,6 @@ execute:
   execute_notebooks: 'off'
 
 html:
-  favicon : "pages/figures/favicon.ico"
   baseurl :  "https://oit.tudelft.nl/CME4501/2024"
   home_page_in_navbar       : true
 
