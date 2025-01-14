@@ -36,7 +36,7 @@ We will teach Python using the [Jupyter Notebook](https://jupyter.org/), a progr
 Source: {cite:ts}`carprentries_download`
 
 ```{exercise}
-:class: bg-white
+:class: bg-light
 
 <iframe src="https://tudelft.h5p.com/content/1292011161958921937/embed" aria-label="Check installation" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 ```
