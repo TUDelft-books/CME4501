@@ -9,9 +9,9 @@ Jupyter notebook start page
 ```
 Use the dashboard to surf to the directory where you stored your Notebooks (you can only surf to lower directories not higher directories) and click on the one you want to open. Launch a new notebook by clicking on the “New” button and then selecting “Python 3”: 
 
-:::{card} Test Yourself
+```{exercise}
 <iframe src="https://tudelft.h5p.com/content/1292011168815984607/embed" aria-label="Locally / in the cloud" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-:::
+```
 
 ## Working in a Jupyter Notebook
 Notebooks consist of cells which can contain code or text/figures (in markdown language). You can choose this cell type for each cell:
@@ -33,9 +33,9 @@ Before running cells
 :width: 600px
 After running cells
 ```
-:::{card} Test Yourself
+```{exercise}
 <iframe src="https://tudelft.h5p.com/content/1292011164112705337/embed" aria-label="Running cells" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-:::
+```
 
 
 ## Tutorial Python
@@ -44,12 +44,3 @@ If you've no experience in using Python, please work through [this material](htt
 - Arrays
 - Functions
 - Bugs
-
-## Questions, discussions and comments
-<script src="https://utteranc.es/client.js"
-        repo="TeachBooks/engineering-systems-optimization"
-        issue-term="title"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
