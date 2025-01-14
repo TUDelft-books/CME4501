@@ -33,12 +33,11 @@ We will teach Python using the [Jupyter Notebook](https://jupyter.org/), a progr
 6. Close the terminal window.
 ```
 ````
-
-:::{card} Test Yourself
-<iframe src="https://tudelft.h5p.com/content/1292011161958921937/embed" aria-label="Check installation" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-:::
-
 Source: {cite:ts}`carprentries_download`
+
+```{exercise}
+<iframe src="https://tudelft.h5p.com/content/1292011161958921937/embed" aria-label="Check installation" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+```
 
 ## Set up the environment
 Now we will make sure you have an environment to get started in this course. This year we will use Python 3.11, so we are going to make sure that’s installed and ready to go. Other Python packages that are not included in the base installation will be installed in your environment when we need to use them, to make sure we know exactly what is going on when working with code in this course.
@@ -57,12 +56,3 @@ One important reminder: throughout the semester you should be using the optimiza
 If you want to install additional packages, you can do so by using `pip install <package name>`. Make sure you do this from within your activated environment.
 
 Source: {cite:ts}`mude_getting_started`
-
-## Questions, discussions and comments
-<script src="https://utteranc.es/client.js"
-        repo="TeachBooks/engineering-systems-optimization"
-        issue-term="title"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
