@@ -50,12 +50,3 @@ Please note that unlike with linear constraints optimization, the right-hand-sid
 :::
 
 The function `scipy.optimize.linprog` outputs an object `scipy.optimize.OptimizeResult` similar as `scipy.optimize.minimize` explained for [unconstrained optimization](method_unconstrained).
-
- ## Questions, discussions and comments
-<script src="https://utteranc.es/client.js"
-        repo="TeachBooks/engineering-systems-optimization"
-        issue-term="title"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
