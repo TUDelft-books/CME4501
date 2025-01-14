@@ -5,10 +5,10 @@ parts:
     numbered: false
     chapters:
     - file: instructions.md
+    - file: contact_information.md
     - file: pages/Python_start
     - file: pages/Python_start_2
     - file: pages/Python_start_3
-    - file: bib.md
   - caption: Optimization using Python
     numbered: 1
     chapters:
@@ -28,3 +28,7 @@ parts:
     - file: pages/metaheuristics
       sections:
       - file: pages/metaheuristics_example
+  - caption: Miscellaneous
+    chapters:
+    - file: bib.md
+    - file: credits.md
