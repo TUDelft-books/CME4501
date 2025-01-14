@@ -37,7 +37,18 @@ Source: {cite:ts}`carprentries_download`
 
 ```{exercise}
 
-<iframe src="https://tudelft.h5p.com/content/1292011161958921937/embed" aria-label="Check installation" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *" style="filter: invert(1); background: transparent; mix-blend-mode: difference;"></iframe><script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+<iframe src="https://tudelft.h5p.com/content/1292011161958921937/embed" aria-label="Check installation" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
+<script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+<style>
+        @media (prefers-color-scheme: light) {
+                iframe {
+                        filter: invert(1);
+                        background: transparent;
+                        mix-blend-mode: difference;
+                }
+        }
+</style>
+
 ```
 
 ## Set up the environment
