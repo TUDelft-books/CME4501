@@ -12,7 +12,7 @@ We will teach Python using the [Jupyter Notebook](https://jupyter.org/), a progr
 2. Download the Anaconda for Windows installer with Python 3. (If you are not sure which version to choose, you probably want the 64-bit Graphical Installer Anaconda3-...-Windows-x86_64.exe)
 3. Install Python 3 by running the Anaconda Installer, using all of the defaults for installation except make sure to check Add Anaconda to my PATH environment variable.
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/xxQ0mzZ8UvA" title="SWC install Python on Windows" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/xxQ0mzZ8UvA" title="SWC install Python on Windows" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="dark-light"></iframe>
 ```
 
 ```{tab-item} Installation on MAC
@@ -20,7 +20,7 @@ We will teach Python using the [Jupyter Notebook](https://jupyter.org/), a progr
 2. Download the Anaconda Installer with Python 3 for macOS (you can either use the Graphical or the Command Line Installer).
 3. Install Python 3 by running the Anaconda Installer using all of the defaults for installation.
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/TcSAln46u9U" title="SWC Install Python on Mac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/TcSAln46u9U" title="SWC Install Python on Mac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="dark-light"></iframe>
 ```
 
 ```{tab-item} Installation on Linux
