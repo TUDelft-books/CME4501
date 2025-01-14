@@ -35,6 +35,7 @@ After running cells
 ```
 ```{exercise}
 <iframe src="https://tudelft.h5p.com/content/1292011164112705337/embed" aria-label="Running cells" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+<style> @media (prefers-color-scheme: light) {iframe {filter: invert(1); background: transparent; mix-blend-mode: difference;}} </style>
 ```
 
 
