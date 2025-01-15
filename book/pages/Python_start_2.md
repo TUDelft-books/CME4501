@@ -18,19 +18,16 @@ Notebooks consist of cells which can contain code or text/figures (in markdown l
 
 ```{figure} ./figures/jupyter_notebook_cell_type.png
 :name: jupyter_notebook_cell_type
-:width: 600px
 Jupyter Notebook cell types
 ```
 Both code and text cells can be run by clicking `execute` or pressing `shift + enter`. Code cells run, resulting in a counter between the square brackets, while text cells are just rendered:
 ```{figure} ./figures/jupyter_notebook_run_cell_before.png
 :name: jupyter_notebook_run_cell_before
-:width: 600px
 Before running cells
 ```
 
 ```{figure} ./figures/jupyter_notebook_run_cell_after.png
 :name: jupyter_notebook_run_cell_after
-:width: 600px
 After running cells
 ```
 ```{exercise}
