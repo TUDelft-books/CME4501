@@ -19,7 +19,7 @@ parts:
       sections :
       - file: pages/Unconstrained_optimization_example_1
       - file: pages/Unconstrained_optimization_example_2
-    - file: pages/linear_constrained_optimization
+    - file: pages/linear_constrained_optimization.md
       sections:
       - file: pages/linear_constrained_optimization_example
       - file: pages/linear_constrained_optimization_class
