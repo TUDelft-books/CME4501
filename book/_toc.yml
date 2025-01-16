@@ -36,3 +36,4 @@ parts:
     chapters:
     - file: bib.md
     - file: credits.md
+    - file: changelog.md
