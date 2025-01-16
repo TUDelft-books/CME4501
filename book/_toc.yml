@@ -19,10 +19,10 @@ parts:
       sections :
       - file: pages/Unconstrained_optimization_example_1
       - file: pages/Unconstrained_optimization_example_2
-      - file: pages/Unconstrained_optimization_class
     - file: pages/linear_constrained_optimization
       sections:
       - file: pages/linear_constrained_optimization_example
+      - file: pages/linear_constrained_optimization_class
     - file: pages/Nonlinear_constrained_optimization
       sections:
       - file: pages/nonlinear_constrained_optimization_example
