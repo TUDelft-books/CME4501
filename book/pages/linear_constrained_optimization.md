@@ -50,7 +50,7 @@ Again, we won't use all options, but a minimum requirement for our problem is th
 
 The function `scipy.optimize.linprog` outputs an object `scipy.optimize.OptimizeResult` similar as `scipy.optimize.minimize` explained for [unconstrained optimization](method_unconstrained).
 
-```exercise
+```{exercise}
 <iframe src="https://tudelft.h5p.com/content/1292246146700299097/embed" aria-label="Method sizes" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 <style> 
     @media (prefers-color-scheme: light) {
