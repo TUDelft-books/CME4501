@@ -1,4 +1,4 @@
-# Unconstrained optimization
+# Unconstrained optimization using `scipy`
 
 In this chapter, we'll cover how to apply `scipy.optimize.minimize` to unconstrained optimization problems. As a reminder, unconstrained optimization considers:
 

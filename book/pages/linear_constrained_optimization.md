@@ -1,4 +1,4 @@
-# Linear constrained optimization
+# Linear constrained optimization using `scipy`
 
 In this chapter, we'll cover how to apply `scipy.optimize.linprog` to linear constrained optimization problems. As a reminder, linear constrained optimization considers:
 

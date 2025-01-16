@@ -1,4 +1,4 @@
-# Multi-objective optimization
+# Multi-objective optimization using `scipy`
 
 In this chapter, we'll cover how to solve multi-objective optimization problem using `scipy`.  As a reminder, nonlinear constrained optimization considers:
 

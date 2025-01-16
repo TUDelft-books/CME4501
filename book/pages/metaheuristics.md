@@ -1,4 +1,4 @@
-# Metaheuristics
+# Metaheuristics using `scipy` and `pymoo`
 
 In this chapter, we'll cover how to solve all optimization problem using metaheuristics, which are methods. Depending on the actual metaheuristic different models can be solved, but in general metaheuristics are more versatile than the gradient-based methods.
 

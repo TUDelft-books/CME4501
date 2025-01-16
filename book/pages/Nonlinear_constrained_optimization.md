@@ -1,4 +1,4 @@
-# Nonlinear constrained optimization
+# Nonlinear constrained optimization using `scipy`
 
 In this chapter, we'll cover how to apply `scipy.optimize.minimize` to nonlinear constrained optimization problems. As a reminder, nonlinear constrained optimization considers:
 
