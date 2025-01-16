@@ -45,8 +45,9 @@ After running cells
 
 
 ## Tutorial Python
-If you've no experience in using Python, please work through [this material](http://mbakker7.github.io/exploratory_computing_with_python/) on your own. Specifically, for this course you'll need:
-- Basics and Plotting
-- Arrays
-- Functions
-- Bugs
+If you've no experience in using Python, please work through [this material](https://teachbooks.io/learn-python/introduction.html) on your own. Specifically, for this course you'll need:
+1. Variables, operators and functions.
+2. Modules, conditions, data structures and loops
+5. Numpy
+7. Matplotlib
+9. Errors

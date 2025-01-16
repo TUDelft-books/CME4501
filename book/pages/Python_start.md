@@ -57,11 +57,11 @@ Now we will make sure you have an environment to get started in this course. Thi
 The following steps will create an Anaconda environment called `optimization` and install Python version 3.11. Even if you already have Python 3.11, it is still good practice to create a dedicated Anaconda environment for each of your major projects. Please make sure you have upgraded Anaconda before proceeding with these steps:
 
 1. Open Anaconda prompt from the start menu
-2. Execute: `conda create -n optimization python=3.11 anaconda` (this may take several minutes)
+2. Execute: `conda create -n optimization python=3.11 numpy matplotlib scipy pymoo` (this may take several minutes)
 3. Activate: `conda activate optimization`
 4. Check: you should now see `optimization` displayed somewhere in the prompt between parenthesis, like this: `(optimization)`
 
-One important reminder: throughout the semester you should be using the optimization environment every time you use Python, except when instructed otherwise. All you have to do is remember to use the command `conda activate optimization` prior to opening your files, or select the new environment in the Anaconda Navigator prior to opening any python-program.
+One important reminder: throughout the course you should be using the optimization environment every time you use Python, except when instructed otherwise. All you have to do is remember to use the command `conda activate optimization` prior to opening your files, or select the new environment in the Anaconda Navigator prior to opening any python-program.
 
 (pip_install)=
 ## Add other packages
