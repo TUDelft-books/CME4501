@@ -38,7 +38,7 @@ with:
 - $x_i^l$ and $x_i^u$, the $n$ lower and upper bounds of the design variable
 
 ## Method
-For linear programs, we can use the function `scipy.optimize.linprog`. In contrast to `scipy.optimize.minimize`, this function is limited to linear functions. The documentation of this function is available here: https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.linprog.html {cite:p}`SciPy_user_guide`. In this course we'll cover only the relevant parts.
+For linear programs, we can use the function `scipy.optimize.linprog`. In contrast to `scipy.optimize.minimize`, this function is limited to linear functions. The documentation of this function is available here: https://docs.scipy.org/doc/scipy-1.15.0/reference/generated/scipy.optimize.linprog.html {cite:p}`SciPy_user_guide`. In this course we'll cover only the relevant parts.
 
 Again, we won't use all options, but a minimum requirement for our problem is the command `scipy.optimize.linprog(c, A_ub, b_ub, A_eq, b_eq, bounds, ...)` with:
  - `c`, a onedimensional numpy array with the $n$ coefficients of the linear objective function $c$.
@@ -48,17 +48,17 @@ Again, we won't use all options, but a minimum requirement for our problem is th
 -  `b_eq`, a onedimensional numpy array with value of the $p$ linear equality constraint vector ${b_{eq}}$. 
  - `Bounds`: A sequence of $i$ `(min, max)` pairs for each element in $x$, defining the minimum $x_i^l$ and maximum values $x_i^u$ of that decision variable. Use `None` to indicate that there is no bound.
 
- The function `scipy.optimize.linprog` outputs an object `scipy.optimize.OptimizeResult` similar as `scipy.optimize.minimize` explained for [unconstrained optimization](method_unconstrained).
+The function `scipy.optimize.linprog` outputs an object `scipy.optimize.OptimizeResult` similar as `scipy.optimize.minimize` explained for [unconstrained optimization](method_unconstrained).
 
- :::{card} Test Yourself
- <iframe src="https://tudelft.h5p.com/content/1292246146700299097/embed" aria-label="Method sizes" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
- :::
-
- ## Questions, discussions and comments
-<script src="https://utteranc.es/client.js"
-        repo="TeachBooks/engineering-systems-optimization"
-        issue-term="title"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+```exercise
+<iframe src="https://tudelft.h5p.com/content/1292246146700299097/embed" aria-label="Method sizes" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+<style> 
+    @media (prefers-color-scheme: light) {
+        iframe[src*="tudelft.h5p.com"] {
+            filter: invert(1); 
+            background: transparent; 
+            mix-blend-mode: difference;
+        }
+    }
+</style>
+```
