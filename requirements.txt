@@ -9,6 +9,7 @@ download_link_replacer == 1.0.4
 sphinx-tudelft-theme == 1.1.4
 sphinx-image-inverter == 1.0.4
 sphinx-exercise == 1.0.1
+teachbooks-sphinx-tippy == 1.0.6
 
 --extra-index-url https://gitlab.tudelft.nl/api/v4/projects/11239/packages/pypi/simple
 sphinx-thebe ~= 0.9.9
