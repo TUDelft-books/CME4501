@@ -1,6 +1,6 @@
 teachbooks == 0.1.0
 jupyterlite-sphinx == 0.18.0
-jupyterbook-patches==1.2.0
+jupyterbook-patches==1.3.0
 scipy
 numpy
 matplotlib
