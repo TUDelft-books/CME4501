@@ -39,7 +39,7 @@ The function `scipy.optimize.differential_evolution` outputs an object `scipy.op
             mix-blend-mode: difference;
         }
     }
-</style>s
+</style>
 ```
 
 ### pymoo
