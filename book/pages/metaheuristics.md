@@ -71,6 +71,10 @@ As a method, we'll use the genetic algorithm. This is stored in the object [`pym
 - `mutation`, pymoo object defining how mutation should happen. If you want to solve integer problems, input must be `pymoo.operators.mutation.pm.PM(repair=pymoo.operators.repair.rounding.RoundingRepair())`
 - `survival`, pymoo object defining how survival should happen
 
+::::::{error}
+Note that pymoo doesn't work in the interactive coding functionality of this website. Please install pymoo on your computer to use it locally.
+::::::
+
 ```{exercise}
 <iframe src="https://tudelft.h5p.com/content/1292271228310077247/embed" aria-label="pymoo" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 ```
