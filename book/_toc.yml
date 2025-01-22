@@ -30,6 +30,7 @@ parts:
     - file: pages/moo
       sections:
       - file: pages/moo_example
+      - file: pages/moo_class
     - file: pages/metaheuristics
       sections:
       - file: pages/metaheuristics_example
