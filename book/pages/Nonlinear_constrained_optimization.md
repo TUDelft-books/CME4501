@@ -20,7 +20,7 @@ with:
 (method_nonlinearconstrained)=
 ## Method
 For linear programs, we can use the function `scipy.optimize.minimize` again. The documentation of this function is available here: 
-https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize.html {cite:p}`SciPy_user_guide`. In this course we'll cover only the relevant parts.
+https://docs.scipy.org/doc/scipy-1.15.0/reference/generated/scipy.optimize.minimize.html {cite:p}`SciPy_user_guide`. In this course we'll cover only the relevant parts.
 
 For unconstrained optimization we need to run at least `scipy.optimize.minimize(fun, x0, bounds, constraints, ...)` with:
 - `fun`, the function representing the objective function $f\left(x\right)$ to be minimized. `fun` is a callable. The `scipy.optimize.minimize` function takes care of defining and inputting our design variable $x$.
@@ -30,9 +30,9 @@ For unconstrained optimization we need to run at least `scipy.optimize.minimize(
    - `scipy.optimize.LinearConstraint`
    - `scipy.optimize.NonlinearConstraint`
 
-:::{card} Test yourself
+```{exercise}
 <iframe src="https://tudelft.h5p.com/content/1292254710251972777/embed" aria-label="Need for x0" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-:::
+```
 
 As you can see, the constraints are stored in an object `scipy.optimize.LinearConstraint` and/or `scipy.optimize.NonlinearConstraint`. These function have the following input, for `scipy.optimize.NonlinearConstraint(fun, lb, ub, ...)`:
 - `fun`, the function representing the constraint function $g\left(x\right)$ or $h\left(x\right)$ to be minimized. Again, `fun` is a callable. The `scipy.optimize.minimize` function takes care of defining and inputting our design variable $x$.
@@ -45,17 +45,17 @@ For linear constraints, the constraint function is stored in a matrix again: `sc
 Please note that unlike with linear constraints optimization, the right-hand-side of the constraints are not stored in an upper bound vector, but defined with `lb` and `ub`.
 
 
-:::{card} Test yourself
+```{exercise}
 <iframe src="https://tudelft.h5p.com/content/1292253866845965907/embed" aria-label="Nonlinear constrained optimization method" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-:::
+<style> 
+    @media (prefers-color-scheme: light) {
+        iframe[src*="tudelft.h5p.com"] {
+            filter: invert(1); 
+            background: transparent; 
+            mix-blend-mode: difference;
+        }
+    }
+</style>
+```
 
 The function `scipy.optimize.linprog` outputs an object `scipy.optimize.OptimizeResult` similar as `scipy.optimize.minimize` explained for [unconstrained optimization](method_unconstrained).
-
- ## Questions, discussions and comments
-<script src="https://utteranc.es/client.js"
-        repo="TeachBooks/engineering-systems-optimization"
-        issue-term="title"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>

@@ -23,15 +23,18 @@ parts:
       sections:
       - file: pages/linear_constrained_optimization_example
       - file: pages/linear_constrained_optimization_class
-    - file: pages/Nonlinear_constrained_optimization
+    - file: pages/Nonlinear_constrained_optimization.md
       sections:
       - file: pages/nonlinear_constrained_optimization_example
-    - file: pages/moo
+      - file: pages/nonlinear_constrained_optimization_class
+    - file: pages/moo.md
       sections:
       - file: pages/moo_example
-    - file: pages/metaheuristics
+      - file: pages/moo_class
+    - file: pages/metaheuristics.md
       sections:
       - file: pages/metaheuristics_example
+      - file: pages/metaheuristics_class
   - caption: Miscellaneous
     chapters:
     - file: bib.md

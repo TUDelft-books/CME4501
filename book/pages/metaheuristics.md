@@ -10,7 +10,7 @@ Two different methods will be treated: `scipy.optimize.differential_evolution` a
 
 ### Scipy
 
-`scipy` has implemented, among others, the differential evolution method {cite:p}`Storn_Price_1997`. The documentation of this function is available here: https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.differential_evolution.html {cite:p}`SciPy_user_guide`. In this course we'll cover only the relevant parts.
+`scipy` has implemented, among others, the differential evolution method {cite:p}`Storn_Price_1997`. The documentation of this function is available here: https://docs.scipy.org/doc/scipy-1.15.0/reference/generated/scipy.optimize.differential_evolution.html {cite:p}`SciPy_user_guide`. In this course we'll cover only the relevant parts.
 
 We need to run at least `scipy.optimize.differential_evolution(fun, x0, bounds, constraints, integrality, strategy, popsize, mutation, recombination, ...)` with:
 - `fun`, the function representing the objective function $f\left(x\right)$ to be minimized. `fun` is a callable. The `scipy.optimize.minimize` function takes care of defining and inputting our design variable $x$.
@@ -29,9 +29,18 @@ Please note that are even more options to adapt the optimization algorithm.
 
 The function `scipy.optimize.differential_evolution` outputs an object `scipy.optimize.OptimizeResult` similar as `scipy.optimize.minimize` explained for [unconstrained optimization](method_unconstrained).
 
-:::{card} Test yourself
+``` {exercise}
 <iframe src="https://tudelft.h5p.com/content/1292271289000014767/embed" aria-label="Differential evolution" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-:::
+<style> 
+    @media (prefers-color-scheme: light) {
+        iframe[src*="tudelft.h5p.com"] {
+            filter: invert(1); 
+            background: transparent; 
+            mix-blend-mode: difference;
+        }
+    }
+</style>
+```
 
 ### pymoo
 `pymoo` has implemented, among others, the genetic algorithm. The documentation of this function, although very limited, is available here: https://pymoo.org/ {cite:p}`pymoo`. Again, we'll cover only the relevant parts. Make sure you install pymoo as explained here in the section {ref}`pip_install` and [in the documentation of pymoo](https://pymoo.org/installation.html).
@@ -62,15 +71,10 @@ As a method, we'll use the genetic algorithm. This is stored in the object [`pym
 - `mutation`, pymoo object defining how mutation should happen. If you want to solve integer problems, input must be `pymoo.operators.mutation.pm.PM(repair=pymoo.operators.repair.rounding.RoundingRepair())`
 - `survival`, pymoo object defining how survival should happen
 
-:::{card} Test yourself
-<iframe src="https://tudelft.h5p.com/content/1292271228310077247/embed" aria-label="pymoo" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-:::
+::::::{error}
+Note that pymoo doesn't work in the interactive coding functionality of this website. Please install pymoo on your computer to use it locally.
+::::::
 
-## Questions, discussions and comments
-<script src="https://utteranc.es/client.js"
-        repo="TeachBooks/engineering-systems-optimization"
-        issue-term="title"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+```{exercise}
+<iframe src="https://tudelft.h5p.com/content/1292271228310077247/embed" aria-label="pymoo" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+```
