@@ -1,6 +1,6 @@
 # Changelog
 
-This changelog will include all changes, except for minor adjustments like typos
+This changelog will include all changes, except for minor adjustments like typos.
 
 ## v2024.0.0 Start course
 - Restructured book with part on introduction, coding of optimization problems and miscellaneous
