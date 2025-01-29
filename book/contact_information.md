@@ -1,6 +1,6 @@
 # Contact information
 
-This module is taught by Maria Nogal and Tom van Woudenberg. The practical session are taught by Tom. Please contact Tom if you've any questions, feedback or when you've personal circumstances which we should know.
+This module is taught by Maria Nogal and Tom van Woudenberg. The practical sessions are taught by Tom. Please contact Tom if you've any questions, feedback or when you've personal circumstances which we should know.
 
 ```{figure} figures/Tom.jpg
 :width: 200px
