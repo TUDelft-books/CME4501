@@ -11,4 +11,4 @@ This changelog will include all changes, except for minor adjustments like typos
 - Restructured book with part on introduction, coding of optimization problems and miscellaneous
 - Added class exercises to book
 - Various improvements of student-experience
-- See full changelog [here](TBP)
+- See full changelog [here](https://github.com/TUDelft-books/CME4501/releases/tag/v2024.0.0)
