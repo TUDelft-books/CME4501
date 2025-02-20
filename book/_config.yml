@@ -36,6 +36,7 @@ sphinx:
       chtml: {
         mtextInheritFont: true # To typeset text within math prettier
       }
+    iframe_width:  100%
   extra_extensions:
     - download_link_replacer
     - jupyterbook_patches
@@ -43,6 +44,7 @@ sphinx:
     - sphinx.ext.extlinks
     - sphinx_image_inverter
     - sphinx_exercise
+    - sphinx_iframes
     - sphinx_tudelft_theme
     - teachbooks_sphinx_tippy
 
