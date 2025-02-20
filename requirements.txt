@@ -9,6 +9,7 @@ sphinx-tudelft-theme == 1.1.5
 sphinx-image-inverter == 1.1.0
 sphinx-exercise == 1.0.1
 teachbooks-sphinx-tippy == 1.0.6
+git+https://github.com/TeachBooks/sphinx-iframes.git
 
 --extra-index-url https://gitlab.tudelft.nl/api/v4/projects/11239/packages/pypi/simple
 sphinx-thebe ~= 0.9.9
