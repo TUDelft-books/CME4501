@@ -43,6 +43,7 @@ sphinx:
     - sphinx.ext.extlinks
     - sphinx_image_inverter
     - sphinx_exercise
+    - sphinx_iframes
     - sphinx_tudelft_theme
     - teachbooks_sphinx_tippy
 
