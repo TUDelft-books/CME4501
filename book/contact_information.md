@@ -11,3 +11,4 @@ This module is taught by Maria Nogal and Tom van Woudenberg. The practical sessi
 - Room 6.45
 - 015-2789739
 - T.R.vanWoudenberg@tudelft.nl
+
