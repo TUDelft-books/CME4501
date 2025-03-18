@@ -35,7 +35,11 @@ parts:
       sections:
       - file: pages/metaheuristics_example
       - file: pages/metaheuristics_class
-    - file: pages/stochastic.ipynb
+    - file: pages/stochastic_workshop.md
+      sections:
+      - file: pages/deterministic.ipynb
+      - file: pages/robust.ipynb
+      - file: pages/stochastic.ipynb
   - caption: Miscellaneous
     chapters:
     - file: bib.md
