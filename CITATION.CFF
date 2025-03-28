@@ -6,7 +6,6 @@ title: CME4501 - Engineering Systems Optimization
 message: >-
   If you use this open interactive textbooks,
   please cite it using the metadata from this file.
-type: dataset
 authors:
   - given-names: Tom
     name-particle: van
@@ -19,29 +18,43 @@ authors:
     email: m.nogal@tudelft.nl
     affiliation: Delft University of Technology
     orcid: 'https://orcid.org/0000-0001-5405-0626'
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.15099966
-    description: Zenodo record
-  - type: url
-    value: 'https://oit.tudelft.nl/CME4501/'
-    description: published book
-repository-code: 'https://github.com/TUDelft-books/CME4501'
-abstract: >-
-  This book focuses on how to apply optimization algorithms
-  to specific optimization problems. It does so using python,
-  scipy and pymoo. It contains the preparations for the
-  practical sessions in CME4501 Engineering Systems Optimization. 
-keywords:
-  - Optimization
-  - Python
-license: CC-BY-4.0
-license-url: https://creativecommons.org/licenses/by/4.0/"
-commit: 65ba24564d5774901469ac1ff0d60939ebc7882d
-version: v2024.3.1
-date-released: '2025-03-28'
-contact:
-  - email: "T.R.vanWoudenberg@tudelft.nl"
-    given-names: Tom
-    name-particle: van
-    family-names: vWoudenberg
+preferred-citation:
+  type: book
+  authors:
+    - given-names: Tom
+      name-particle: van
+      family-names: Woudenberg
+      email: t.r.van.woudenberg@tudelft.nl
+      affiliation: Delft University of Technology
+      orcid: 'https://orcid.org/0000-0002-9536-061X'
+    - given-names: Maria
+      family-names: Nogal
+      email: m.nogal@tudelft.nl
+      affiliation: Delft University of Technology
+      orcid: 'https://orcid.org/0000-0001-5405-0626'
+  identifiers:
+    - type: doi
+      value: 10.5281/zenodo.15099966
+      description: Zenodo record
+    - type: url
+      value: 'https://oit.tudelft.nl/CME4501/'
+      description: published book
+  repository-code: 'https://github.com/TUDelft-books/CME4501'
+  abstract: >-
+    This book focuses on how to apply optimization algorithms
+    to specific optimization problems. It does so using python,
+    scipy and pymoo. It contains the preparations for the
+    practical sessions in CME4501 Engineering Systems Optimization. 
+  keywords:
+    - Optimization
+    - Python
+  license: CC-BY-4.0
+  license-url: https://creativecommons.org/licenses/by/4.0/"
+  commit: 65ba24564d5774901469ac1ff0d60939ebc7882d
+  version: v2024.3.1
+  date-released: '2025-03-28'
+  contact:
+    - email: "T.R.vanWoudenberg@tudelft.nl"
+      given-names: Tom
+      name-particle: van
+      family-names: Woudenberg
