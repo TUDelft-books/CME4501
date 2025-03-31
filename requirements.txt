@@ -1,5 +1,5 @@
 teachbooks == 0.1.0
-jupyterbook-patches==1.4.2
+jupyterbook-patches==1.4.4
 scipy
 numpy
 matplotlib
