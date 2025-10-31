@@ -8,7 +8,7 @@ execute:
   execute_notebooks: 'off'
 
 html:
-  baseurl :  "https://oit.tudelft.nl/CME4501/2024"
+  baseurl :  "https://oit.tudelft.nl/CME4501/2025"
   home_page_in_navbar       : true
 
 sphinx:
@@ -22,7 +22,7 @@ sphinx:
     html_theme_options:
       repository_url: "https://github.com/TUDelft-books/CME4501"
       path_to_docs: "book"
-      repository_branch: "2024"
+      repository_branch: "2025"
       use_repository_button: true
       use_edit_page_button: true
       use_issues_button : true
