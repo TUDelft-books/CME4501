@@ -1,13 +1,12 @@
-teachbooks == 0.1.0
-jupyterbook-patches==1.7.0
 scipy
 numpy
 matplotlib
 pymoo
-download_link_replacer == 1.0.4
-sphinx-tudelft-theme == 1.1.5
-sphinx-image-inverter == 1.1.2
-sphinx-exercise == 1.0.1
-teachbooks-sphinx-tippy == 1.0.12
 
-git+https://github.com/TeachBooks/Sphinx-Thebe
+# first list the packages you wish to download from PyPI
+teachbooks # depends on jupyter-book v1
+
+# Our favourite Sphinx extensions in one line, replace with individual extensions if you prefer some extensions not to be included (https://github.com/TeachBooks/TeachBooks-Favourites)
+git+https://github.com/TeachBooks/TeachBooks-Favourites
+sphinx-tudelft-theme
+sphinx-apa-references

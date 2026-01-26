@@ -1,5 +1,5 @@
 title: CME4501 - Engineering Systems Optimization
-author: Tom van Woudenberg and Maria Nogal from Delft University of Technology, built with <a href="https://teachbooks.tudelft.nl/">TeachBooks</a> and <a href="https://jupyterbook.org/">Jupyter Book</a>, <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer"">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a>
+author: Tom van Woudenberg and Maria Nogal from Delft University of Technology.
 email: T.R.vanWoudenberg@tudelft.nl 
 
 only_build_toc_files : True
@@ -31,20 +31,15 @@ sphinx:
       logo:
         text: "CME4501 - Engineering Systems Optimization"
     html_show_copyright: false
-    html_last_updated_fmt: '%B %-d, %Y'
+    html_last_updated_fmt: ''
     mathjax3_config:
       chtml: {
         mtextInheritFont: true # To typeset text within math prettier
       }
   extra_extensions:
-    - download_link_replacer
-    - jupyterbook_patches
-    - download_link_replacer
-    - sphinx.ext.extlinks
-    - sphinx_image_inverter
-    - sphinx_exercise
-    - sphinx_tudelft_theme
-    - teachbooks_sphinx_tippy
+    - teachbooks_favourites                          # Gives you a starter package of extensions to use in your open interactive learning material, replace with individual extensions if you prefer some extensions not to be included (https://github.com/TeachBooks/TeachBooks-Favourites)
+    - sphinx_tudelft_theme                           # Add TU Delft theme: https://teachbooks.io/manual/external/Sphinx-TUDelft-theme/README.html
+    - sphinx_apa_references 
 
 bibtex_bibfiles:
   - references.bib

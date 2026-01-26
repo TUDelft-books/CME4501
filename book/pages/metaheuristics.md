@@ -10,7 +10,7 @@ Two different methods will be treated: `scipy.optimize.differential_evolution` a
 
 ### Scipy
 
-`scipy` has implemented, among others, the differential evolution method {cite:p}`Storn_Price_1997`. The documentation of this function is available here: https://docs.scipy.org/doc/scipy-1.15.0/reference/generated/scipy.optimize.differential_evolution.html {cite:p}`SciPy_user_guide`. In this course we'll cover only the relevant parts.
+`scipy` has implemented, among others, the differential evolution method {cite:p}`Storn_Price_1997`. The documentation of this function is available here: https://docs.scipy.org/doc/scipy-1.17.0/reference/generated/scipy.optimize.differential_evolution.html {cite:p}`SciPy_user_guide`. In this course we'll cover only the relevant parts.
 
 We need to run at least `scipy.optimize.differential_evolution(fun, x0, bounds, constraints, integrality, strategy, popsize, mutation, recombination, ...)` with:
 - `fun`, the function representing the objective function $f\left(x\right)$ to be minimized. `fun` is a callable. The `scipy.optimize.minimize` function takes care of defining and inputting our design variable $x$.

@@ -1,7 +1,19 @@
 # Jupyter Notebook and Python basics
 
-After installing Anaconda and setting up the environment, start the Navigator and select the `optimization environment`. This can be done on the top of the screen at `All application` on  `base (root)`: change `base (root)` to `optimization`. Or in the left tab under `Environments`, click `optimization.`
-Then, launch the Jupyter Notebook from the list of applications under `home`, which will open the Jupyter Notebook dashboard in your webbrowser (starting in your Documents folder on Windows and your home directory on a Mac):
+After installing tudelft conda and setting up the environment, you can start using Jupyter Notebooks to run Python code. Every time you want to work on the course material, you first need to activate the `optimization` environment you created earlier. You can do so by opening the tudelft-conda prompt (search for `tudelft-conda` in the start menu) and executing the command:
+
+```
+conda activate optimization
+```
+
+Then, launch the Jupyter Notebook by typing:
+
+```
+jupyter notebook
+```
+
+Which will open the Jupyter Notebook dashboard in your webbrowser (starting in your Documents folder on Windows and your home directory on a Mac):
+
 ```{figure} ./figures/jupyter_notebook_start.png
 :name: jupyter_notebook_start
 :width: 600px
@@ -45,9 +57,13 @@ After running cells
 
 
 ## Tutorial Python
-If you've no experience in using Python, please work through [this material](https://teachbooks.io/learn-python/introduction.html) on your own. Specifically, for this course you'll need:
-1. Variables, operators and functions.
-2. Modules, conditions, data structures and loops
-5. Numpy
-7. Matplotlib
-9. Errors
+If you've no experience in using Python, please work through [this material](https://oit.tudelft.nl/learn-python/2025/introduction.html) on your own. Specifically, for this course you'll need:
+ - Part 1
+    1. Basics
+    2. Flow
+    3. Beyond the basics - Functions
+    5. Modules
+    6. Errors - Error types and The python traceback
+ - Part 2
+    1. Numpy
+    3. Matplotlib
