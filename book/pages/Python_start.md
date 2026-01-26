@@ -27,7 +27,7 @@ A few tips:
 ### Additionally: Add conda to path
 
 ```{note}
-This steps is only required for windows-users who didn't add Anaconda to their path during task 2.2.
+This steps is only required for windows-users who didn't add Anaconda to their path during the previous steps.
 ```
 
 1. Find the path to your conda installation. The easiest way to do this is to navigate to the folder using the File Explorer, then click in the address bar near the top and copy the text, which should look something like this :
@@ -90,8 +90,6 @@ The following figure illustrates exactly where you should paste your desired fol
 ![How to add a folder (directory) location to the `PATH` variable using the "New" button.](https://github.com/TUDelft-MUDE/source-files/raw/main/file/environment_var_PATH_new.png)
 
 4. Restart your computer
-
-> This task uses content from https://teachbooks.io/learn-programming/install/common/env_vars_windows.html by Delft University of Technology, licensed with CC BY 4.0 License.
 
 ## Check installation
 
